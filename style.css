@@ -1,54 +1,78 @@
-.mainnav{
+.navcontainer{
     display: flex;
     justify-content: left;
     align-items: center;
     height: 100px;
     color: white;
     position: fixed;
+    background-color: rgb(239, 165, 208);
+    width: 100vw;
+    z-index: 1;
+    opacity: 85%;
+}
+
+.mainnav{
+    display: flex;
 }
 
 .logo{
     height: 50px;
-    margin: 914px;
 }
 
 .toplink{
     margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+    align-self: center;
 }
 
 .section{
     height: 100vh;
     background-color: black;
     margin: 0px;
+    display: flex;
+    position: relative;
 }
 
 .sectiontext{
-    position: relative;
+    position: absolute;
     top: 200px;
-    left: 30px;    
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 h3 {
     background: black;
     width: 100px;
-    text-align: center;
     color: white;
+    border-radius: 5px;
+    border: white 2px solid;
+    margin-bottom: -5px;
 }
 
 h2 {
-    background: gray;
-    width: 200px;
-    text-align: center;
-    color: black;
+    background: black;
+    color: white;
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    border: white 2px solid;
+
 }
 
 .readmore{
-    border: 5px red solid;
+    border: 5px rgb(239, 165, 208) solid;
     background: black;
-    color: aliceblue;
+    color: rgb(239, 165, 208);
     width: 100px;
-    padding: 10px;
-    margin: 0px;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 900;
+    
 }
 
 /*created individual classes to give each element some
@@ -74,8 +98,24 @@ body{
     margin: 0px;
 }
 
+.socialsbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+
 footer{
     text-align: center;
     background-color: black;
     color: white;
+    padding-top: 15px;
+}
+
+.footertext {
+    margin: 0;
+}
+
+.socialsbar img {
+    height: 30px;
 }
