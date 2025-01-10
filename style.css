@@ -2,14 +2,14 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    height: 50px;
-    background-color: black;
+    height: 100px;
     color: white;
+    position: fixed;
 }
 
 .logo{
     height: 50px;
-    margin-: 914px;
+    margin: 914px;
 }
 
 .toplink{
@@ -21,6 +21,38 @@
     background-color: black;
     margin: 0px;
 }
+
+.sectiontext{
+    position: relative;
+    top: 200px;
+    left: 30px;    
+}
+
+h3 {
+    background: black;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    background: gray;
+    width: 200px;
+    text-align: center;
+    color: black;
+}
+
+.readmore{
+    border: 5px red solid;
+    background: black;
+    color: aliceblue;
+    width: 100px;
+    padding: 10px;
+    margin: 0px;
+}
+
+/*created individual classes to give each element some
+individuality while making the sections appear uniform*/
 
 .ginger{
     background-image: url(https://wallpapers.com/images/high/ginger-cat-pictures-2560-x-1600-gog2ubj1b0t1dpqr.webp);
@@ -36,4 +68,14 @@
 .mainecoon{
     background-image: url(https://images.pexels.com/photos/14639094/pexels-photo-14639094.jpeg) ;
     background-size: cover;
+}
+
+body{
+    margin: 0px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
