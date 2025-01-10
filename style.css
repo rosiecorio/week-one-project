@@ -72,11 +72,13 @@ h2 {
     margin: 0;
     margin-top: 30px;
     font-weight: 900;
+    text-decoration: none;
     
 }
 
-/*created individual classes to give each element some
-individuality while making the sections appear uniform*/
+.readmore:hover {
+    background-color: rgb(255, 255, 255);
+}
 
 .ginger{
     background-image: url(https://wallpapers.com/images/high/ginger-cat-pictures-2560-x-1600-gog2ubj1b0t1dpqr.webp);
@@ -113,9 +115,15 @@ footer{
 }
 
 .footertext {
-    margin: 0;
+    margin: 15px;
 }
 
 .socialsbar img {
     height: 30px;
+}
+.backtotop {
+    background-color: rgb(239, 165, 208);
+    border-radius: 10px;
+    color: black;
+    padding: 4px;
 }
