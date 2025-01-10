@@ -127,3 +127,7 @@ footer{
     color: black;
     padding: 4px;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
